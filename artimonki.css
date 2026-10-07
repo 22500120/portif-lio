@@ -1,0 +1,295 @@
+body    {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins", sans-serif;
+    
+    
+}
+
+.russo-one-regular {
+  font-family: "Russo One", sans-serif;
+}
+
+
+body{background-color: #11001C;}
+
+header{
+    display: grid;
+    grid-template-columns: 3fr 6fr 8fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 3fr;
+    grid-template-rows: 60px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#sobre-mim{grid-row: 1/1;
+  grid-column: 3/4;
+  color: aliceblue;
+  margin-left: 10px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 18px;
+ 
+  
+  }
+  #sobre-mim:hover{
+      background-color: #650091;
+      transition: 0.5s;
+  }
+
+#habilidades{grid-row: 1/1;
+  grid-column: 4/5;
+  color: aliceblue;
+  margin-left: 10px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  }
+
+  #habilidades:hover{
+      background-color: #650091;
+    
+      transition: 0.5s;
+  }
+
+#projetos{grid-row: 1/1;
+  grid-column: 5/6;
+  color: aliceblue;
+  margin-left: 1px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 18px;}
+
+  #projetos:hover{
+      background-color: #650091;
+    
+      transition: 0.9s ease-in;
+  }
+
+#contato{grid-row: 1/1;
+  grid-column: 6/7;
+  color: aliceblue;
+  margin-left: 10px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 18px;}
+
+  #contato:hover{
+      background-color: #650091;
+
+      transition: 0.5s;
+  }
+
+
+  #savio{grid-row: 1/1;
+    grid-column: 10/14;
+    color: aliceblue;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 18px;}
+  
+    
+#branco{
+  grid-row: 2/2;
+  grid-column: 3/14;
+  background-color: #fbfafc;
+  border-radius: 20px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 3fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 3fr;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+#prazer{
+  font-size: 60px;
+  font-family: "Russo One", sans-serif;
+  color: rgb(252, 252, 252);
+  grid-row: 1/1;
+  grid-column: 3/8;
+}
+
+#introdução-breve{
+  color: rgb(252, 252, 252);
+  grid-row: 1/2;
+  grid-column: 3/8;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 70px;
+}
+
+#fotodegostoso{
+  grid-row: 1/5;
+  grid-column: 11/14;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+#fotodegostoso img{
+  width: 350px;
+  height: 300px;
+}
+
+#fundoroxo{
+  grid-row: 6/17;
+  grid-column: 3/14;
+  background-color: #59247B;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+#sobremim{
+  font-size: 60px;
+  font-family: "Russo One", sans-serif;
+  color: rgb(252, 252, 252);
+  grid-row: 6/6;
+  grid-column: 3/8;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+#fundoroxo2{
+  grid-row: 7/16;
+  grid-column: 3/9;
+  background-color: #2D0846;
+  border-radius: 20px;
+  z-index: 0;
+  margin-left: 60px;
+  padding: 23px;
+}
+
+#fundoroxotxt{
+  color: rgb(252, 252, 252); 
+  font-size: 26px;
+}
+
+#fotodegostoso2{
+  grid-row: 7/16;
+  grid-column: 10/14;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+#fotodegostoso2 img{
+
+  height: 810px;
+}
+
+
+#rodapé{
+  grid-row: 18/26;
+  grid-column: 1/19;
+  background-color: #000000;
+  color: rgb(252, 252, 252);
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+  z-index: -1;
+}
+
+
+
+body {
+  background-color: #11001C;
+  color: white;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+
+#darkMode {
+  grid-row: 1/1;
+  grid-column: 14/15;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: #650091;
+  color: white;
+  transition: 0.3s;
+}
+
+#darkMode:hover {
+  background-color: #fdc7f6;
+}
+
+body.light #darkMode:hover {
+  background-color: #650091;
+  color: #11001C;
+}
+
+body.light {
+  background-color: #fdc7f6;
+  color: #11001C;
+}
+
+
+body.light #sobre-mim,
+body.light #habilidades,
+body.light #projetos,
+body.light #contato,
+body.light #savio,
+body.light #prazer,
+body.light #introdução-breve,
+body.light #sobremim {
+  color: #000000;
+}
+
+
+body.light #branco {
+  background-color: #11001C;
+}
+
+
+body.light #fundoroxo {
+  background-color: #d787ff;
+}
+
+
+body.light #fundoroxo2 {
+  background-color: #ca65fc;
+}
+
+body.light #fundoroxotxt {
+  color: #000000;
+}
+
+
+body.light #rodapé {
+  background-color: #5a0056;
+  color: #ffffff;
+}
+
+#prazer::after {
+  content: '_';
+  
+  animation: blink 0.8s infinite;
+}
+
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+#sobremim::after {
+  content: '_';
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}

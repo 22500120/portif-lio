@@ -1,0 +1,402 @@
+body    {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins", sans-serif;
+    
+    
+}
+
+.russo-one-regular {
+  font-family: "Russo One", sans-serif;
+}
+
+
+body{background-color: #11001C;}
+
+header{
+    display: grid;
+    grid-template-columns: 3fr 6fr 8fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 3fr;
+    grid-template-rows: 60px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#sobre-mim{grid-row: 1/1;
+  grid-column: 3/4;
+  color: aliceblue;
+  margin-left: 10px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 18px;
+ 
+  
+  }
+  #sobre-mim:hover{
+      background-color: #650091;
+      transition: 0.5s;
+  }
+
+#habilidades{grid-row: 1/1;
+  grid-column: 4/5;
+  color: aliceblue;
+  margin-left: 10px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  }
+
+  #habilidades:hover{
+      background-color: #650091;
+    
+      transition: 0.5s;
+  }
+
+#projetos{grid-row: 1/1;
+  grid-column: 5/6;
+  color: aliceblue;
+  margin-left: 1px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 18px;}
+
+  #projetos:hover{
+      background-color: #650091;
+    
+      transition: 0.9s ease-in;
+  }
+
+#contato{grid-row: 1/1;
+  grid-column: 6/7;
+  color: aliceblue;
+  margin-left: 10px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 18px;}
+
+  #contato:hover{
+      background-color: #650091;
+
+      transition: 0.5s;
+  }
+
+
+  #savio{grid-row: 1/1;
+    grid-column: 10/14;
+    color: aliceblue;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 18px;}
+  
+    
+#branco{
+  grid-row: 2/2;
+  grid-column: 3/14;
+  background-color: #fbfafc;
+  border-radius: 20px;
+}
+
+/* ======================================================================================== */
+
+section{
+    display: grid;
+    grid-template-columns:  3fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 3fr;
+    grid-template-rows: 100px  100px  100px  100px  100px  100px  100px  100px  100px  100px  100px  100px  100px  100px  100px  100px  100px  100px  100px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+#projecttxt{
+  font-size: 60px;
+  font-family: "Russo One", sans-serif;
+  color: rgb(252, 252, 252);
+  grid-row: 2/2;
+  grid-column: 6/14;
+  align-items: center;
+  margin-left: 100px;
+  
+}
+
+#projecttxt::after {
+  content: '_';
+  
+  animation: blink 0.8s infinite;
+}
+
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+#branco2{
+background-color: #ffffff;
+grid-row: 3/3;
+  grid-column: 4/13;
+height: 14px;
+margin-top: -30px;
+  border-radius: 20px;
+}
+
+#projeto1{
+  background-color: #59247B;
+  grid-row: 4/7;
+  grid-column: 4/13;
+  height: 240px;
+  margin-top: -30px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 5px;  
+  padding: 10px;
+}
+
+#projeto1 img{
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 960px;
+
+}
+
+#projeto1txt{
+  grid-row: 4/5;
+  grid-column: 4/9;
+  color: aliceblue;
+    margin-top:65px;
+    margin-left:30px ;
+    text-align: center;
+    font-weight: 800;
+    font-size: 27px;
+    
+}
+
+
+#projeto2{
+  background-color: #59247B;
+  grid-row: 8/12;
+  grid-column: 4/13;
+  height: 240px;
+  margin-top: -30px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 5px;  
+  padding: 10px;
+}
+
+#projeto2 img{
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 960px;
+
+}
+
+#projeto2txt{
+  grid-row: 8/10;
+  grid-column: 4/6;
+  color: aliceblue;
+    margin-top:65px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 27px;
+    
+}
+
+
+
+
+#projeto3{
+  background-color: #59247B;
+  grid-row: 13/17;
+  grid-column: 4/13;
+  height: 240px;
+  margin-top: -100px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 5px;  
+  padding: 10px;
+}
+
+#projeto3 img{
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 960px;
+
+}
+
+#projeto3txt{
+  grid-row: 13/14;
+  grid-column: 4/9;
+  color: aliceblue;
+    text-align: center;
+    font-weight: 800;
+    font-size: 27px;
+    
+}
+
+
+
+#projeto4{
+  background-color: #59247B;
+  grid-row: 18/19;
+  grid-column: 5/12;
+  margin-top: -100px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 5px;  
+  padding: 10px;
+  font-size: 60px;
+}
+
+#projeto4txt{
+  grid-row: 18/19;
+  grid-column: 4/9;
+  color: aliceblue;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  display: grid;
+  grid-template-columns: 3px 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 3px;
+  grid-template-rows: 80px 80px 80px 70px  ;
+}
+#rodape{
+  grid-row: 1/5;
+  grid-column: 1/19;
+  z-index: 1;
+  background-color: #000000;
+  color: rgb(252, 252, 252);
+  text-align: center;
+  font-size: 13px;
+  padding: 10px;
+  z-index: -1;
+}
+
+body {
+  background-color: #11001C;
+  color: white;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+
+#darkMode {
+  grid-row: 1/1;
+  grid-column: 14/15;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: #650091;
+  color: white;
+  transition: 0.3s;
+}
+
+#darkMode:hover {
+  background-color: #fdc7f6;
+}
+
+body.light #darkMode:hover {
+  background-color: #650091;
+  color: #11001C;
+}
+
+body.light {
+  background-color: #fdc7f6;
+  color: #11001C;
+}
+
+
+body.light #sobre-mim,
+body.light #habilidades,
+body.light #projetos,
+body.light #contato,
+body.light #savio,
+body.light #prazer,
+body.light #introdução-breve,
+body.light #sobremim,
+body.light #projecttxt,
+body.light #projeto1txt,
+body.light #projeto2txt,
+body.light #projeto3txt,
+body.light #projeto4txt
+{
+  color: #000000;
+}
+
+
+body.light #branco {
+  background-color: #11001C;
+}
+
+body.light #branco2 {
+  background-color: #11001C;
+}
+
+body.light #fundoroxo {
+  background-color: #d787ff;
+}
+
+
+body.light #fundoroxo2 {
+  background-color: #ca65fc;
+}
+
+body.light #fundoroxotxt {
+  color: #000000;
+}
+
+
+body.light #rodape {
+  background-color: #5a0056;
+  color: #ffffff;
+}
+
+
+
+body.light #fundoroxo {
+  background-color: #d787ff;
+}
+body.light #projeto1 {
+  background-color: #d787ff;
+}
+body.light #projeto2 {
+  background-color: #d787ff;
+}
+body.light #projeto3 {
+  background-color: #d787ff;
+}
+body.light #projeto4 {
+  background-color: #d787ff;
+}

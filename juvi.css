@@ -1,0 +1,124 @@
+body    {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins", sans-serif;
+    
+}
+
+body{background-color: #11001C;}
+
+section{
+    display: grid;
+    grid-template-columns: 3fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 3fr;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px ;
+}
+
+
+#HEADER{
+    grid-row: 2/3;
+    grid-column: 4/10;
+    color: aliceblue;
+    margin-left: 90px;
+    margin-top: 40px;
+    LETTER-SPACING: 80PX;
+    text-align: center;
+    font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#sobre-mim{grid-row: 4/4;
+    grid-column: 6/8;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 40px;
+    LETTER-SPACING: 10PX;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    
+    }
+    #sobre-mim:hover{
+        background-color: #fbfafc;
+        color: #11001C;
+        transition: 0.5s;
+    }
+
+#habilidades{grid-row: 5/5;
+    grid-column: 6/8;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 40px;
+    LETTER-SPACING: 10PX;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    }
+
+    #habilidades:hover{
+        background-color: #fbfafc;
+        color: #11001C;
+        transition: 0.5s;
+    }
+
+#projetos{grid-row: 6/6;
+    grid-column: 6/8;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 40px;
+    LETTER-SPACING: 10PX;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 18px;}
+
+    #projetos:hover{
+        background-color: #fbfafc;
+        color: #11001C;
+        transition: 0.5s;
+    }
+
+#contato{grid-row: 7/7;
+    grid-column: 6/8;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 40px;
+    LETTER-SPACING: 10PX;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 18px;}
+
+    #contato:hover{
+        background-color: #fbfafc;
+        color: #11001C;
+        transition: 0.5s;
+    }
+
+#estrela{grid-row: 3/3;
+    grid-column: 1/4;
+    margin-left:0px;
+    margin-top: -80px;}
+       
+    
+    #estrela img{width: 700px;
+    height: 700px;
+    margin: 0px;}
+
+#lua{grid-row: 3/3;
+    grid-column: 8/12;
+    margin-left: 85px;
+    margin-top: -80px;
+    }
+
+#lua img{
+    width: 700px;
+    height: 700px;
+    margin: 0px;
+}
+
+#lua img, #estrela img {
+    transition: transform 0.1s ease-out;
+}

@@ -1,0 +1,415 @@
+body    {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins", sans-serif;
+    
+    
+}
+
+.russo-one-regular {
+  font-family: "Russo One", sans-serif;
+}
+
+
+body{background-color: #11001C;}
+
+header{
+    display: grid;
+    grid-template-columns: 3fr 6fr 8fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 3fr;
+    grid-template-rows: 60px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#sobre-mim{grid-row: 1/1;
+  grid-column: 3/4;
+  color: aliceblue;
+  margin-left: 10px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 18px;
+ 
+  
+  }
+  #sobre-mim:hover{
+      background-color: #650091;
+      transition: 0.5s;
+  }
+
+#habilidades{grid-row: 1/1;
+  grid-column: 4/5;
+  color: aliceblue;
+  margin-left: 10px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  }
+
+  #habilidades:hover{
+      background-color: #650091;
+    
+      transition: 0.5s;
+  }
+
+#projetos{grid-row: 1/1;
+  grid-column: 5/6;
+  color: aliceblue;
+  margin-left: 1px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 18px;}
+
+  #projetos:hover{
+      background-color: #650091;
+    
+      transition: 0.9s ease-in;
+  }
+
+#contato{grid-row: 1/1;
+  grid-column: 6/7;
+  color: aliceblue;
+  margin-left: 10px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 18px;}
+
+  #contato:hover{
+      background-color: #650091;
+
+      transition: 0.5s;
+  }
+
+
+  #savio{grid-row: 1/1;
+    grid-column: 10/14;
+    color: aliceblue;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 18px;}
+  
+    
+#branco{
+  grid-row: 2/2;
+  grid-column: 3/14;
+  background-color: #fbfafc;
+  border-radius: 20px;
+}
+
+section{
+  display: grid;
+  grid-template-columns: 3fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 3fr;
+  grid-template-rows: 100px 100px 10px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
+}
+
+#habili{
+  font-size: 60px;
+  font-family: "Russo One", sans-serif;
+  color: rgb(252, 252, 252);
+  grid-row: 2/2;
+  grid-column: 4/8;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+  #fundoroxo{
+    grid-row: 1/22;
+    grid-column: 3/14;
+    background-color: #59247B;
+    border-radius: 20px;
+    z-index: -1;
+    margin-top: 70px;
+  }
+
+  #preto{
+    grid-row: 3/3;
+    grid-column: 4/13;
+    background-color: #ffffff;
+    border-radius: 20px;
+    
+  }
+
+  #skill1{
+  font-size:  46px;
+  font-family: "Russo One", sans-serif;
+  color: rgb(252, 252, 252);
+  grid-row: 4/4;
+  grid-column: 4/8; 
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  }
+
+  #skill2{
+    font-size:  46px;
+    font-family: "Russo One", sans-serif;
+    color: rgb(252, 252, 252);
+    grid-row: 5/5;
+    grid-column: 4/8; 
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+    #skill3{
+      font-size:  46px;
+      font-family: "Russo One", sans-serif;
+      color: rgb(252, 252, 252);
+      grid-row: 6/6;
+      grid-column: 4/8; 
+      align-items: center;
+      margin-top: 20px;
+      margin-left: 20px;
+      }
+    
+      #skill4{
+        font-size:  46px;
+        font-family: "Russo One", sans-serif;
+        color: rgb(252, 252, 252);
+        grid-row: 7/7;
+        grid-column: 4/8; 
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 20px;
+        }
+      
+        #skill5{
+          font-size:  46px;
+          font-family: "Russo One", sans-serif;
+          color: rgb(252, 252, 252);
+          grid-row: 8/8;
+          grid-column: 4/8; 
+          align-items: center;
+          margin-top: 20px;
+          margin-left: 20px;
+          }
+        
+          #skill6{
+            font-size:  46px;
+            font-family: "Russo One", sans-serif;
+            color: rgb(252, 252, 252);
+            grid-row: 9/9;
+            grid-column: 4/8; 
+            align-items: center;
+            margin-top: 20px;
+            margin-left: 20px;
+            }
+          
+            #skill7{
+              font-size:  46px;
+              font-family: "Russo One", sans-serif;
+              color: rgb(252, 252, 252);
+              grid-row: 10/10;
+              grid-column: 4/8; 
+              align-items: center;
+              margin-top: 20px;
+              margin-left: 20px;
+              }
+            
+              #skill8{
+                font-size:  46px;
+                font-family: "Russo One", sans-serif;
+                color: rgb(252, 252, 252);
+                grid-row: 11/11;
+                grid-column: 4/8; 
+                align-items: center;
+                margin-top: 20px;
+                margin-left: 20px;
+                }
+              
+                #skill9{
+                  font-size:  46px;
+                  font-family: "Russo One", sans-serif;
+                  color: rgb(252, 252, 252);
+                  grid-row: 12/12;
+                  grid-column: 4/8; 
+                  align-items: center;
+                  margin-top: 20px;
+                  margin-left: 20px;
+                  }
+                
+                  #skill10{
+                    font-size:  46px;
+                    font-family: "Russo One", sans-serif;
+                    color: rgb(252, 252, 252);
+                    grid-row: 13/13;
+                    grid-column: 4/11; 
+                    align-items: center;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    }
+                  
+                    #skill11{
+                      font-size:  46px;
+                      font-family: "Russo One", sans-serif;
+                      color: rgb(252, 252, 252);
+                      grid-row: 14/15;
+                      grid-column: 4/15; 
+                      align-items: center;
+                      margin-top: 20px;
+                      margin-left: 20px;
+                      }
+                    
+                      #skill12{
+                        font-size:  46px;
+                        font-family: "Russo One", sans-serif;
+                        color: rgb(252, 252, 252);
+                        grid-row: 15/15;
+                        grid-column: 4/8; 
+                        align-items: center;
+                        margin-top: 60px;
+                        margin-left: 20px;
+                      }
+                                                        
+  
+                      #fundoroxotxt{
+                        color: rgb(252, 252, 252); 
+                        font-size: 25px;
+                        margin-top: -30px;
+                        margin-left: 20px;
+                      }
+                      #fundoroxotxt2{
+                        margin-top: 10px;
+                        color: rgb(252, 252, 252); 
+                        font-size: 30px;
+                        margin-left: 106px;
+                        align-items: center;
+                       font-family: "Russo One", sans-serif;
+                      }
+  
+
+
+#fundoroxo2{
+  grid-row: 16/20;
+  grid-column: 9/13;
+  background-color: #2D0846;
+  border-radius: 20px;
+  z-index: 0;
+  margin-left: 60px;
+  padding: 23px;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 3px 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 3px;
+  grid-template-rows: 80px 80px 80px 70px  ;
+}
+#rodape{
+  grid-row: 1/5;
+  grid-column: 1/19;
+  z-index: 1;
+  background-color: #000000;
+  color: rgb(252, 252, 252);
+  text-align: center;
+  font-size: 13px;
+  padding: 10px;
+  z-index: -1;
+}
+
+
+
+/* modo escuro */
+body {
+    background-color: #11001C;
+    color: white;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+  
+  
+  #darkMode {
+    grid-row: 1/1;
+    grid-column: 14/14;
+    margin-top: 15px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #650091;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  #darkMode:hover {
+    background-color: #fdc7f6;
+  }
+
+  
+  body.light {
+    background-color: #fdc7f6;
+    color: #11001C;
+  }
+  
+  
+  body.light #sobre-mim,
+  body.light #habilidades,
+  body.light #projetos,
+  body.light #contato,
+  body.light #savio,
+  body.light #prazer,
+  body.light #introdução-breve,
+  body.light #sobremim {
+    color: #000000;
+  }
+
+  body.light #skill1,
+body.light #skill2,
+body.light #skill3,
+body.light #skill4,
+body.light #skill5,
+body.light #skill6,
+body.light #skill7,
+body.light #skill8,
+body.light #skill9,
+body.light #skill10,
+body.light #skill11,
+body.light #skill12
+{
+  color: #000000;
+}
+  
+  body.light #branco {
+    background-color: #11001C;
+  }
+
+  body.light #fundoroxo2 {
+    background-color: #560082;
+  }
+
+  body.light #fundoroxotxt {
+    color: #000000;
+  }
+  
+  body.light #habili{
+    color: #000000;
+  }
+
+  body.light #fundoroxo {
+    background-color: #d787ff;
+  }
+  body.light #preto {
+    background-color: #000000;
+  }
+  body.light #rodape {
+    background-color: #5a0056;
+  color: #ffffff;;
+  }
+
+  body.light #fundoroxotxt{
+    color: #ffffff;
+  }
+
+
+  
